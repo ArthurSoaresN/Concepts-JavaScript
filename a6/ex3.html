@@ -19,10 +19,19 @@
     <script>
         var n1 = window.prompt('Digite um numero: ') // recebe o numero como string
         var n2 = window.prompt('Digite outro numero: ')
-        soma = n1+n2
+        n1 = Number.parseInt(n1)
+        n2 = Number.parseInt(n2)
+        soma = n1 + n2
         window.alert('A soma dos numeros é ' + soma)
         // + para adição (number + number)
         // + para concatenação (string + string)
+
+        // Number(n) String(n) ou n.toString()
+
+        // `Templade ${variavel1} ${variavel2}`
+        // s.length
+        // s.toUpperCase()
+        // s.toLowerCase()
     </script>
     
 </body>
