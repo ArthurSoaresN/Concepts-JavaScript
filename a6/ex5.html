@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex5</title>
+    <style>
+        body {
+            background-color: grey;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <!-- Document Object Model, funciona como uma arvore -->
+     <!-- window (raiz) -->
+      <!-- filhos do window -> location, document (aqui tem html, que tem body e head como filhos), history -->
+       <!-- filhos do head -> meta e title, filhos do body -> h1, p, div, strong -->
+    <h1>Iniciando estudos com DOM</h1>
+    <p>Aqui vai ser o resultado</p>
+    <div>Clique em mim</div> <br>
+    <script>
+        window.document.write(window.document.URL)
+        var p1 = window.document.getElementByTagName('p')[0]
+        window.document.write('Resultado: ' + p1.innerText)
+        var corpo = window.document.body
+        corpo.style.backgroundColor = 'black'
+    </script>
+
+    <!-- Seleção: por marca (tagname), por ID, por Nome, por Classe e por Seletor -->
+
+    <!-- por maracar -> getElementsByTagName() -->
+</body>
+</html>
