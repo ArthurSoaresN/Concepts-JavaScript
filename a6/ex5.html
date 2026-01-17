@@ -19,15 +19,26 @@
        <!-- filhos do head -> meta e title, filhos do body -> h1, p, div, strong -->
     <h1>Iniciando estudos com DOM</h1>
     <p>Aqui vai ser o resultado</p>
-    <div>Clique em mim</div> <br>
-    <script>
-        window.document.write(window.document.URL)
-        var p1 = window.document.getElementByTagName('p')[0]
-        window.document.write('Resultado: ' + p1.innerText)
-        var corpo = window.document.body
-        corpo.style.backgroundColor = 'black'
-    </script>
+    <div id="msg">Clique em mim</div> <br>
 
+    <script>
+    // 1. Pegando a URL (sem escrever na tela ainda)
+    var urlAtual = window.document.URL;
+
+    // 2. Selecionando o parágrafo (pelo nome da tag)
+    var p1 = window.document.getElementsByTagName('p')[0];
+
+    // 3. Mudando o TEXTO do parágrafo para mostrar o resultado
+    // Em vez de escrever solto, vamos trocar o texto "Aqui vai ser o resultado"
+    p1.innerText = "Estou na página: " + urlAtual;
+    
+    // 4. Mudando a cor de fundo (Seu código estava certo!)
+    var corpo = window.document.body;
+    corpo.style.backgroundColor = 'black';
+    
+    // Dica Extra: Mudando a cor do texto do parágrafo para destacar
+    p1.style.color = 'yellow';
+</script>
     <!-- Seleção: por marca (tagname), por ID, por Nome, por Classe e por Seletor -->
 
     <!-- por maracar -> getElementsByTagName() -->
