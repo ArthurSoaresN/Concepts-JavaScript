@@ -17,10 +17,10 @@ switch(diaSem) {
     case 4:
         console.log('Quinta')
     case 5:
-        console.log('Sexta')
+        console.log('Sexta ')
     case 6:
         console.log('Sabado')
     default:
         console.log('Valor Invalido')
         break
-}
+}  
