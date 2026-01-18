@@ -16,6 +16,7 @@ body {
 header {
     color: white;
     text-align: center;
+    margin: 20px;
 }
 
 section {
@@ -45,4 +46,21 @@ div {
 header > h1 {
     text-shadow: 5px 5px 7px rgba(0, 0, 0, 0.5);
     margin: 10px;
+}
+
+label {
+    text-align: justify;
+}
+
+div#msg > p {
+    text-align: justify;
+    margin: 20px;
+}
+
+div#msg > p.botao {
+    text-align: center;
+}
+
+img {
+    margin: 30px 30px 0px 30px;
 }
