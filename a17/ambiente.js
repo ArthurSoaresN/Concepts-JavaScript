@@ -24,3 +24,6 @@ console.log(lista)
 for (let pos in num) {
     console.log(`A posição ${pos} tem o valor: ${num[pos]}`)
 }
+
+pos =  num.indexOf(8)
+console.log(pos)
