@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cotagem</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="carregar()">
+    <header>
+        <h1>Vamos contar</h1>
+    </header>
+    <section>
+        <div id="info">
+            <p>Inicio: 
+                <input type="number" name="txtinicio" id="txtinicio" min="0">
+            </p>
+
+            <p>Fim: 
+                <input type="number" name="txtfim" id="txtfim" min="0">
+            </p>
+
+            <p> Passos: 
+                <input type="number" name="txtpassos" id="txtpassos" min="0">
+            </p>
+                <p class="botao">
+                <input type="button" value="Contar" onclick="contar()">
+            </p>
+
+        </div>
+
+        <div id="res">
+           Preparando contagem...
+        </div>
+
+    </section>
+    <footer>
+        <p>&copy; Atividade JavaScript</p>
+    </footer>
+    <script src="script.js">
+
+
+    </script>
+</body>
+</html>

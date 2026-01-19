@@ -16,6 +16,7 @@ body {
 header {
     color: white;
     text-align: center;
+    padding-top: 50px;
 }
 
 section {
@@ -38,11 +39,14 @@ footer > p {
 }
 
 div {
-    text-align: center;
     padding: 15px;
 }
 
 header > h1 {
     text-shadow: 5px 5px 7px rgba(0, 0, 0, 0.5);
+    margin: 10px;
+}
+
+p {
     margin: 10px;
 }
