@@ -13,3 +13,14 @@ console.log(tamanho)
 
 num.sort() // ordenando vetor
 console.log(num)
+
+lista = ''
+for (contador = 0; contador < tamanho; contador ++) {
+    lista += `${num[contador]} `
+}
+
+console.log(lista)
+
+for (let pos in num) {
+    console.log(`A posição ${pos} tem o valor: ${num[pos]}`)
+}
